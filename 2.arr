@@ -13,6 +13,8 @@ whitehex = regular-polygon(43, 8, "solid", "white")
 stoptext = text-font("STOP", 36, "white", "Treasure Map Deadhand", "decorative", "normal", "normal", false)
 
 
-overlay(overlay-align("center", "middle", stoptext, redhex)),(whitehex)
+red-stop = overlay-align("center", "middle", stoptext, redhex)
 
-overlay-align("center", "middle", stoptext, redhex)
+stop-sign = overlay-align("center", "middle", red-stop, whitehex)
+
+stop-sign
