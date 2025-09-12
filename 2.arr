@@ -10,7 +10,7 @@ rotate(45, rectangle(100, 20, "solid", "red"))
 
 redhex = regular-polygon(40, 8, "solid", "red")
 whitehex = regular-polygon(43, 8, "solid", "white")
-stoptext = text-font("STOP", 36, "white", "Treasure Map Deadhand", "decorative", "normal", "normal", false)
+stoptext = text-font("STOP", 36, "white", "sans-serif", "decorative", "normal", "normal", false)
 
 
 red-stop = overlay-align("center", "middle", stoptext, redhex)
