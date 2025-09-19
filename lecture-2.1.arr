@@ -22,7 +22,7 @@ above(yellowcircles, blackrectangle)
 luxembourg = above(
   above(
     rectangle(100, 25, "solid", "red"),
-    rectangle(100, 25, "solid", "white")),
-  (rectangle(100, 25, "solid", "cornflower-blue")))
+    rectangle(100, 25, "solid", "white")),(
+    rectangle(100, 25, "solid", "cornflower-blue")))
 
 luxembourg
