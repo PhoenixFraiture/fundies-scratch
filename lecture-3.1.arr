@@ -27,13 +27,13 @@ fun add-glasses(outfit :: String) -> String:
 end
 
 fun choose-hat-or-visor(
-    temp-in-C3 :: String,
+    temp-in-C3 :: Number,
     has-visor :: Boolean) -> String:
   if (temp-in-C3 > 27) and (temp-in-C3 < 31):
     "sun hat"
-  else if temp-in-C3 < 10:
+    else if temp-in-C3 < 10:
     "winter hat"
-  else if has-visor:
+  else if has-visor == true:
     if temp-in-C3 > 30:
       "visor"
     else if (temp-in-C3 > 27) and (temp-in-C3 < 31):
